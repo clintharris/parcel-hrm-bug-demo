@@ -1,0 +1,18 @@
+{
+  "name": "parcel-hrm-bug-demo",
+  "version": "1.0.0",
+  "description": "Demonstrate issue with Parcel 1.12.3 where HRM runtime calls window.location.reload(), which breaks in web worker context.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel --log-level 3 ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:clintharris/parcel-hrm-bug-demo.git"
+  },
+  "author": "Clint Harris",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
