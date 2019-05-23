@@ -1,0 +1,9 @@
+A minimal Parcel 1.12.3 + web worker project that demonstrates Parcel issue [#3076](https://github.com/parcel-bundler/parcel/issues/3076).
+
+Steps to reproduce:
+
+1. Clone [https://github.com/clintharris/parcel-hrm-bug-demo](https://github.com/clintharris/parcel-hrm-bug-demo)
+1. `npm install && npm start`
+1. Load http://localhost:1234, open browser JS console.
+1. Edit `src/index.js` to trigger HMR `update`.
+1. JS console error: `ReferenceError: window is not defined`
